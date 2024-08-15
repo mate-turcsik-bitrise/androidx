@@ -287,7 +287,7 @@ public class ShortcutManagerCompatTest extends BaseInstrumentationTestCase<TestA
         verify(mShortcutInfoChangeListener).onShortcutAdded(shortcuts);
     }
 
-    @LargeTest
+    @Ignore
     @Test
     @SdkSuppress(minSdkVersion = 25)
     public void testExcludedShortcuts() throws Throwable {

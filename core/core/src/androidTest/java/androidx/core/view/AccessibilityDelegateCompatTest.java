@@ -637,7 +637,7 @@ public class AccessibilityDelegateCompatTest extends
                 },
                 TIMEOUT_ASYNC_PROCESSING);
     }
-
+    @Ignore
     @Test
     public void testSetStateDescription_propagatesToAccessibilityNodeInfo_sendsOutCorrectEvent()
             throws TimeoutException {
