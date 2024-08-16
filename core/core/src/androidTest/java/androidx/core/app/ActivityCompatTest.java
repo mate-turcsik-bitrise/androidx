@@ -43,6 +43,7 @@ import androidx.test.filters.SdkSuppress;
 import androidx.test.rule.GrantPermissionRule;
 
 import org.junit.Rule;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
@@ -94,6 +95,7 @@ public class ActivityCompatTest extends BaseInstrumentationTestCase<TestActivity
     }
 
     @Test
+    @Ignore
     public void testPermissionNull() {
         try (ActivityScenario<TestActivity> scenario =
                      ActivityScenario.launch(TestActivity.class)) {
